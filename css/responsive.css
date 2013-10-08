@@ -1,0 +1,39 @@
+/* line 41, ../scss/grid.scss */
+body {
+  width: 100%;
+  *zoom: 1; }
+  /* line 27, ../scss/grid.scss */
+  body:before, body:after {
+    content: "";
+    display: table; }
+  /* line 31, ../scss/grid.scss */
+  body:after {
+    clear: both; }
+
+/* line 22, ../scss/responsive.scss */
+header#top {
+  margin-bottom: 1em; }
+
+/* line 27, ../scss/responsive.scss */
+#maincolumn {
+  display: inline;
+  float: left;
+  width: 72.91667%;
+  margin: 0 1.04167%; }
+
+/* line 30, ../scss/responsive.scss */
+#sidebar {
+  display: inline;
+  float: left;
+  width: 22.91667%;
+  margin: 0 1.04167%; }
+
+@media screen and (max-width: 720px) {
+  /* line 36, ../scss/responsive.scss */
+  #maincolumn,
+  #sidebar {
+    display: inline;
+    float: left;
+    width: 97.91667%;
+    margin: 0 1.04167%;
+    margin-bottom: 1em; } }
