@@ -1,4 +1,5 @@
-# Portfolio de Didier GABIAM
+# WPGen
+## Thème Wordpress Générique crée par Didier GABIAM
 
 Portfolio 2013 
 
