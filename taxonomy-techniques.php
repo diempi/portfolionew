@@ -3,7 +3,7 @@
     $term = get_term_by("slug",get_query_var("term"),get_query_var("taxonomy"));
 ?>
         <section id="content">
-            <h1 class="bigtitle"> Projets crée avec <?php echo($term->name); ?> </h1>
+            <h1 id="fullwidth"> Projets crée avec <?php echo($term->name); ?> </h1>
             <ul class="galerie">
                     <?php if(have_posts()): ?>
                         <?php while(have_posts()): the_post();?>

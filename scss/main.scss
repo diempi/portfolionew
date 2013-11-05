@@ -172,6 +172,9 @@ footer{
 
 // under 394px
 @media only screen and (max-width: 394px) {
+  header, #content, footer{
+    margin: 1em;
+  }
   .techniques{
     display: none;
   }
@@ -202,7 +205,7 @@ footer{
     margin: 0;
   }
   .recent-works{
-    margin-bottom: 1em;
+    margin-bottom: 2em;
   }
   #me{
     font-size: 1.2em;
