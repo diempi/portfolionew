@@ -1,8 +1,8 @@
 # WPGen
-## Thème Wordpress Portfolio de Didier GABIAM
+## Thème Wordpress Générique crée par Didier GABIAM
 
 Portfolio 2013 
 
-* Homepage: [http://www.diempi.me](http://www.diempi.me)
+* Homepage: [http://www.diempi.be/portfolio](http://www.diempi.be/portfolio)
 * Twitter: [@diempidezign](http://twitter.com/diempidezign)
 

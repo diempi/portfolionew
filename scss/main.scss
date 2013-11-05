@@ -81,6 +81,8 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 @import "fontello-ie7-codes";
 @import "fontello-codes";
 
+@include sticky-footer(54px, "#content", "#main-footer", "footer");
+
 li{
   list-style-type: none;
 }
@@ -132,7 +134,7 @@ img, iframe, video{
 .social {
   li{
     display:inline-block;
-    width: 2em;
+    width: 2.08em;
     height: 2em;
     margin: 0 0.5em 0 0.5em;   
   }
@@ -216,8 +218,11 @@ footer{
   width: 100%;
   clear: both;
     height: 7em;
-    background-color: #aaa;
+    background-color: #2f2f2f;
     margin: auto;
+      span {
+        color: #367fa8;
+      } 
   }
   .social {
     margin-top: 0.5em;
@@ -272,7 +277,12 @@ footer{
       color: #fff;
     }
   }
-
+#welcome{
+  font-size: 1.2em;
+  line-height: 1.3em;
+  margin: 2em 1.3em 1em 1.3em;
+  padding: 0.5em 0;
+}
   #branding{
     clear: both;
     padding-top: 0.5em;
@@ -312,8 +322,11 @@ footer{
   width: 100%;
   clear: both;
     height: 7em;
-    background-color: #aaa;
+    background-color: #2f2f2f;
     margin: auto;
+    span {
+      color: #367fa8;
+      } 
 }
 #footerwrap{
     padding: 1em 1em 0 1em;
@@ -401,11 +414,8 @@ $gutter-width: 20;
 
 $total-width: 100%;
 
-@include sticky-footer(54px, "#main", "#main-footer", "footer");
 
-
-header,#content,#showcase, #footerwrap{
-    
+header,#welcome, #content,#showcase, #footerwrap{
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -480,6 +490,16 @@ nav{
 header{
       margin-top: 1em;
       height: 100px;
+}
+
+#welcome{
+  max-width: 1092px;
+  box-shadow: 1px 1px 10px #888888;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+  padding: 1em;
+  text-transform: uppercase;
 }
 
 #content{
@@ -574,11 +594,38 @@ figcaption{
 }
 
 #contactform{
-  @include column(8);
+  width: 64.58333%;
   float: left;
   margin-left: 0;
+  padding-left: 1em;
 }
 
+form{
+
+  div{
+    margin: 1em 0;
+  }
+  label{
+    display: block;
+    width: 100%;
+    
+    text-transform: uppercase;
+  }
+  input, textarea{
+    width: 100%;
+  }
+}
+
+#send{
+  text-align: right;
+  input{
+        width:auto;
+        padding: 0.5em;
+        background-color: #367fa8;
+        color: #fff;
+  }
+}
+  
 .social, .moreinfos{ 
   float: right;
 }
@@ -599,6 +646,8 @@ figcaption{
   }
 }
 .social-contact{
+  width: 32%;
+  float: right;
   display: block;
   li{
     width: 100%;
@@ -609,6 +658,7 @@ figcaption{
 
   a{
     display:block;
+    width: 2.08em;
     text-indent:55px;
     line-height: 2em;
     color:#367fa8;
@@ -637,35 +687,6 @@ figcaption{
   }
 }
 
-form{
-  fieldset{
-    box-shadow: 3px 3px 8px #888888;
-  }
-  div{
-    margin: 1em 0;
-  }
-  label{
-    display: block;
-    width: 22%;
-    float: left;
-    text-transform: uppercase;
-  }
-  input, textarea{
-    width: 76%;
-  }
-}
-
-#send{
-  text-align: right;
-  input{
-        width:auto;
-        padding: 0.5em;
-        background-color: #367fa8;
-        color: #fff;
-        margin-right: 0.5em;
-  }
-}
-  
 a{
   &:visited{
     color: #367fa8;

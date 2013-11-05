@@ -1,6 +1,6 @@
 <?php get_header( ); ?>
             <section id="content" role="main">
-                <h1>Mes projets récents</h1>
+                <h1 class="bigtitle">Mes projets récents</h1>
                 <ul class="galerie">
                     <?php 
                         $arg = array('post_type' => 'works');
