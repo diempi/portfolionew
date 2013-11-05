@@ -2,8 +2,7 @@
     	       	<div id="footerwrap">
     	       		<section class="social">
                         <ul>
-                            <li><a href="http://www.twitter.com/diempidev" title="Mon compte Twitter" id="twitterdev"></a></li>
-                            <li><a href="http://www.twitter.com/diempidezign" title="Mon 2e compte Twitter" id="twitterdez"></a></li>
+                            <li><a href="http://www.twitter.com/imdiempi" title="Mon compte Twitter" id="twitterdev"></a></li>
                             <li><a href="http://be.linkedin.com/in/didierg" title="Mon compte Linkedin" id="lknd"></a></li>
                             <li><a href="https://plus.google.com/105017643822966037515" title="Mon compte Google plus" id="gplus"></a></li>
                         </ul>

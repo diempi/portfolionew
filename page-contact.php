@@ -40,8 +40,7 @@
                 <section class="social social-contact">
                     <h2>Je suis aussi présent sur</h2>
                     <ul>
-                        <li><a href="http://www.twitter.com/diempidev" title="Mon compte Twitter" id="twitterdev">@DiempiDev</a></li>
-                        <li><a href="http://www.twitter.com/diempidezign" title="Mon 2e compte Twitter" id="twitterdez">@DiempiDezign</a></li>
+                        <li><a href="http://www.twitter.com/imdiempi" title="Mon compte Twitter" id="twitterdev">@ImDiempi</a></li>
                         <li><a href="http://be.linkedin.com/in/didierg" title="Mon compte Linkedin" id="lknd">Linkedin</a></li>
                         <li><a href="https://plus.google.com/105017643822966037515" title="Mon compte Google plus" id="gplus">Google+</a></li>
                     </ul>
