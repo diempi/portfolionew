@@ -3479,91 +3479,92 @@ footer {
     color: #fff; }
 
   /* line 373, ../scss/main.scss */
-  .visit {
+  .visit a {
+    display: block;
+    width: 7.5em;
     font-size: 0.8em;
     color: #fff;
     padding: 0.3em;
     background-color: #367fa8;
     text-transform: uppercase;
     margin: 0.5em 0; }
-    /* line 380, ../scss/main.scss */
-    .visit a {
-      display: block;
-      color: #fff; }
+    /* line 382, ../scss/main.scss */
+    .visit a:hover {
+      color: red; }
 
-  /* line 385, ../scss/main.scss */
+  /* line 387, ../scss/main.scss */
   #me {
     font-size: 1.3em;
     line-height: 1.3em;
     margin: 0.5em 0 1em 0.5em; }
 
-  /* line 390, ../scss/main.scss */
+  /* line 392, ../scss/main.scss */
   .social-contact {
     display: none; } }
 @media only screen and (min-width: 992px) {
   /* 992 =================================================== */
-  /* line 421, ../scss/main.scss */
+  /* line 423, ../scss/main.scss */
   header, #welcome, #content, #showcase, #footerwrap {
     max-width: 1140px;
     margin: 0 auto; }
 
-  /* line 427, ../scss/main.scss */
+  /* line 429, ../scss/main.scss */
   img, iframe, video {
     max-width: 100%;
     height: auto; }
 
-  /* line 432, ../scss/main.scss */
+  /* line 434, ../scss/main.scss */
   a {
     text-decoration: none;
     color: #146490; }
-    /* line 435, ../scss/main.scss */
+    /* line 437, ../scss/main.scss */
     a:visited {
       color: #367fa8; }
 
-  /* line 439, ../scss/main.scss */
+  /* line 441, ../scss/main.scss */
   #fullwidth {
     width: 100%;
     margin: 0 0 0 0.5em;
     text-transform: uppercase;
     color: #000; }
 
-  /* line 445, ../scss/main.scss */
+  /* line 447, ../scss/main.scss */
   #logo {
     width: 40%;
     float: left;
     text-align: left; }
-    /* line 449, ../scss/main.scss */
+    /* line 451, ../scss/main.scss */
     #logo a {
       display: block; }
-      /* line 451, ../scss/main.scss */
+      /* line 453, ../scss/main.scss */
       #logo a:hover {
         transition: none; }
-    /* line 455, ../scss/main.scss */
+    /* line 457, ../scss/main.scss */
     #logo h1 {
       margin-bottom: 0; }
-    /* line 458, ../scss/main.scss */
+    /* line 460, ../scss/main.scss */
     #logo h2 {
       margin: 0;
       font-size: 100%;
       font-weight: normal; }
 
-  /* line 465, ../scss/main.scss */
+  /* line 467, ../scss/main.scss */
   nav {
     width: 58%;
     padding-left: 0;
     margin-right: 0;
     float: right; }
-    /* line 470, ../scss/main.scss */
+    /* line 472, ../scss/main.scss */
     nav ul {
       float: right;
       margin-top: 0; }
-    /* line 474, ../scss/main.scss */
+    /* line 476, ../scss/main.scss */
     nav li {
       display: inline-block;
       width: auto;
       text-transform: uppercase;
       font-size: 1em; }
-      /* line 479, ../scss/main.scss */
+      /* line 481, ../scss/main.scss */
       nav li a {
         display: block;
         padding: 0.5em;
@@ -3571,16 +3572,16 @@ footer {
         transition: color 0.5s;
         -webkit-transition: color 0.5s;
         -moz-transition: color 0.5s; }
-        /* line 486, ../scss/main.scss */
+        /* line 488, ../scss/main.scss */
         nav li a:hover {
           color: #000; }
 
-  /* line 493, ../scss/main.scss */
+  /* line 495, ../scss/main.scss */
   header {
     margin-top: 1em;
     height: 100px; }
 
-  /* line 498, ../scss/main.scss */
+  /* line 500, ../scss/main.scss */
   #welcome {
     max-width: 1092px;
     box-shadow: 1px 1px 10px #888888;
@@ -3590,26 +3591,26 @@ footer {
     padding: 1em;
     text-transform: uppercase; }
 
-  /* line 508, ../scss/main.scss */
+  /* line 510, ../scss/main.scss */
   #content {
     box-shadow: 1px 1px 10px #888888;
     padding: 1.5em 0;
     margin-bottom: 2em; }
-    /* line 512, ../scss/main.scss */
+    /* line 514, ../scss/main.scss */
     #content ul {
       clear: both;
       margin-left: 0;
       text-align: left;
       padding-left: 0;
       margin-bottom: 0; }
-    /* line 519, ../scss/main.scss */
+    /* line 521, ../scss/main.scss */
     #content h1 {
       clear: both; }
-    /* line 522, ../scss/main.scss */
+    /* line 524, ../scss/main.scss */
     #content h2 {
       font-size: 1.4em; }
 
-  /* line 526, ../scss/main.scss */
+  /* line 528, ../scss/main.scss */
   .logo {
     display: inline;
     float: left;
@@ -3617,11 +3618,11 @@ footer {
     margin: 0 1.04167%;
     float: left; }
 
-  /* line 531, ../scss/main.scss */
+  /* line 533, ../scss/main.scss */
   li {
     list-style-type: none; }
 
-  /* line 534, ../scss/main.scss */
+  /* line 536, ../scss/main.scss */
   .bigtitle {
     width: 38%;
     float: left;
@@ -3629,43 +3630,43 @@ footer {
     text-transform: uppercase;
     color: #000; }
 
-  /* line 542, ../scss/main.scss */
+  /* line 544, ../scss/main.scss */
   .galerie {
     width: 100%;
     margin: 0;
     padding: 0; }
 
-  /* line 547, ../scss/main.scss */
+  /* line 549, ../scss/main.scss */
   .recent-works {
     display: inline;
     float: left;
     width: 31.25%;
     margin: 0 1.04167%;
     margin-bottom: 2.5em; }
-    /* line 550, ../scss/main.scss */
+    /* line 552, ../scss/main.scss */
     .recent-works h3 {
       margin: 0.3em 0 0 0.3em; }
-    /* line 553, ../scss/main.scss */
+    /* line 555, ../scss/main.scss */
     .recent-works img {
       padding: 0.3em; }
-      /* line 556, ../scss/main.scss */
+      /* line 558, ../scss/main.scss */
       .recent-works img:hover {
         -webkit-transform: scale(1.1);
         -moz-transform: scale(1.1);
         transform: scale(1.1); }
-    /* line 562, ../scss/main.scss */
+    /* line 564, ../scss/main.scss */
     .recent-works p {
       margin: 0.2em 0 0 0.3em;
       font-size: 0.8em; }
-    /* line 567, ../scss/main.scss */
+    /* line 569, ../scss/main.scss */
     .recent-works:firstchild {
       margin-left: 0; }
 
-  /* line 571, ../scss/main.scss */
+  /* line 573, ../scss/main.scss */
   .thumb {
     text-align: center; }
 
-  /* line 574, ../scss/main.scss */
+  /* line 576, ../scss/main.scss */
   #me {
     width: 95%;
     font-size: 140%;
@@ -3673,7 +3674,7 @@ footer {
     margin-bottom: 1.5em;
     margin-top: 1em; }
 
-  /* line 582, ../scss/main.scss */
+  /* line 584, ../scss/main.scss */
   figure {
     width: 28%;
     float: left;
@@ -3681,74 +3682,74 @@ footer {
     margin-left: 1em;
     margin-top: 1.5em; }
 
-  /* line 589, ../scss/main.scss */
+  /* line 591, ../scss/main.scss */
   figure img {
     box-shadow: 2px 2px 6px #aaa;
     padding: 0.3em;
     border: none; }
 
-  /* line 595, ../scss/main.scss */
+  /* line 597, ../scss/main.scss */
   figcaption {
     margin: 0.5em 0; }
 
-  /* line 599, ../scss/main.scss */
+  /* line 601, ../scss/main.scss */
   #contactform {
     width: 64.58333%;
     float: left;
     margin-left: 0;
     padding-left: 1em; }
 
-  /* line 608, ../scss/main.scss */
+  /* line 610, ../scss/main.scss */
   form div {
     margin: 1em 0; }
-  /* line 611, ../scss/main.scss */
+  /* line 613, ../scss/main.scss */
   form label {
     display: block;
     width: 100%;
     text-transform: uppercase; }
-  /* line 617, ../scss/main.scss */
+  /* line 619, ../scss/main.scss */
   form input, form textarea {
     width: 100%; }
 
-  /* line 622, ../scss/main.scss */
+  /* line 624, ../scss/main.scss */
   #send {
     text-align: right; }
-    /* line 624, ../scss/main.scss */
+    /* line 626, ../scss/main.scss */
     #send input {
       width: auto;
       padding: 0.5em;
       background-color: #367fa8;
       color: #fff; }
 
-  /* line 632, ../scss/main.scss */
+  /* line 634, ../scss/main.scss */
   .social, .moreinfos {
     float: right; }
 
-  /* line 637, ../scss/main.scss */
+  /* line 639, ../scss/main.scss */
   .moreinfos h2 {
     margin-bottom: 0; }
-  /* line 640, ../scss/main.scss */
+  /* line 642, ../scss/main.scss */
   .moreinfos article {
     color: #555; }
-  /* line 643, ../scss/main.scss */
+  /* line 645, ../scss/main.scss */
   .moreinfos li {
     margin: 0.5em 0 !important; }
-  /* line 646, ../scss/main.scss */
+  /* line 648, ../scss/main.scss */
   .moreinfos p {
     margin-top: 0; }
 
-  /* line 651, ../scss/main.scss */
+  /* line 653, ../scss/main.scss */
   .social-contact {
     width: 32%;
     float: right;
     display: block; }
-    /* line 655, ../scss/main.scss */
+    /* line 657, ../scss/main.scss */
     .social-contact li {
       width: 100%;
       margin-bottom: 1em;
       margin: 0 0.5em 1em 0.5em;
       padding: 0 0.5em; }
-    /* line 662, ../scss/main.scss */
+    /* line 664, ../scss/main.scss */
     .social-contact a {
       display: block;
       width: 2.08em;
@@ -3759,56 +3760,56 @@ footer {
       background-position: 0 0;
       background-repeat: no-repeat; }
 
-  /* line 676, ../scss/main.scss */
+  /* line 678, ../scss/main.scss */
   #twitterdev:hover {
     background-position: 0 100%; }
 
-  /* line 677, ../scss/main.scss */
+  /* line 679, ../scss/main.scss */
   #twitterdez:hover {
     background-position: 0 100%; }
 
-  /* line 678, ../scss/main.scss */
+  /* line 680, ../scss/main.scss */
   #gplus {
     background-position: 57.2% 0; }
 
-  /* line 679, ../scss/main.scss */
+  /* line 681, ../scss/main.scss */
   #gplus:hover {
     background-position: 57.2% 100%; }
 
-  /* line 680, ../scss/main.scss */
+  /* line 682, ../scss/main.scss */
   #lknd {
     background-position: 71.5% 0; }
 
-  /* line 681, ../scss/main.scss */
+  /* line 683, ../scss/main.scss */
   #lknd:hover {
     background-position: 71.5% 100%; }
 
-  /* line 683, ../scss/main.scss */
+  /* line 685, ../scss/main.scss */
   #main-footer {
     clear: both; }
 
-  /* line 687, ../scss/main.scss */
+  /* line 689, ../scss/main.scss */
   .preview img {
     padding: 0.3em; }
 
-  /* line 694, ../scss/main.scss */
+  /* line 696, ../scss/main.scss */
   a:visited {
     color: #367fa8; }
 
-  /* line 699, ../scss/main.scss */
-  .visit {
+  /* line 701, ../scss/main.scss */
+  .visit a {
     padding: 0.5em;
     background-color: #367fa8;
     color: #fff; }
-    /* line 703, ../scss/main.scss */
-    .visit:visited {
+    /* line 705, ../scss/main.scss */
+    .visit a:visited {
       color: #fff; }
 
-  /* line 708, ../scss/main.scss */
+  /* line 710, ../scss/main.scss */
   .title {
     font-size: 1em; }
 
-  /* line 713, ../scss/main.scss */
+  /* line 715, ../scss/main.scss */
   #branding, #techs {
     clear: none;
     width: 60%;
@@ -3817,12 +3818,12 @@ footer {
     padding-top: 0;
     text-align: right;
     color: #fff; }
-    /* line 721, ../scss/main.scss */
+    /* line 723, ../scss/main.scss */
     #branding li, #techs li {
       display: inline-block;
       text-align: center;
       text-transform: uppercase; }
-      /* line 725, ../scss/main.scss */
+      /* line 727, ../scss/main.scss */
       #branding li .fontel, #techs li .fontel {
         display: block;
         width: 40px;
@@ -3839,11 +3840,11 @@ footer {
         transition: color 0.5s;
         -webkit-transition: color 0.5s;
         -moz-transition: color 0.5s; }
-        /* line 741, ../scss/main.scss */
+        /* line 743, ../scss/main.scss */
         #branding li .fontel:hover, #techs li .fontel:hover {
           color: #367fa8;
           background: none; }
-      /* line 746, ../scss/main.scss */
+      /* line 748, ../scss/main.scss */
       #branding li a, #techs li a {
         display: block;
         float: right;
@@ -3852,12 +3853,12 @@ footer {
         transition: color 0.5s;
         -webkit-transition: color 0.5s;
         -moz-transition: color 0.5s; }
-        /* line 754, ../scss/main.scss */
+        /* line 756, ../scss/main.scss */
         #branding li a:hover, #techs li a:hover {
           color: #367fa8;
           background: none; }
 
-  /* line 761, ../scss/main.scss */
+  /* line 763, ../scss/main.scss */
   #tools {
     width: 60%;
     float: right;
@@ -3866,21 +3867,21 @@ footer {
     font-size: 2.5em;
     color: #367fa8; }
 
-  /* line 769, ../scss/main.scss */
+  /* line 771, ../scss/main.scss */
   .icon-text {
     float: right;
     line-height: 3.5em; }
 
-  /* line 773, ../scss/main.scss */
+  /* line 775, ../scss/main.scss */
   .active {
     background-color: red;
     color: #fff; }
 
-  /* line 777, ../scss/main.scss */
+  /* line 779, ../scss/main.scss */
   footer {
     height: 7em; }
 
-  /* line 781, ../scss/main.scss */
+  /* line 783, ../scss/main.scss */
   #footerwrap .social {
     float: none;
     margin-bottom: 0.5em; } }

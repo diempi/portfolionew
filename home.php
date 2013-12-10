@@ -1,6 +1,6 @@
 <?php get_header( ); ?>
     <section id="welcome">
-            Hello, je m'appelle Didier Gabiam. Je suis intégrateur et développeur Web avec une attirance récente pour le développement mobile. Vous trouverez ici les projets que j'ai réalisé et ceux sur lesquels je travaille. <a href="contact" title="Allez-y cliquez et contactez-moi"><strong>Louez mes services</strong></a> pourvos futurs projets, armé de mes outils de mercenaire je me chargerai de votre mission!
+            Hello, je m'appelle Didier Gabiam. Je suis intégrateur et développeur Web avec une attirance récente pour le développement mobile. Vous trouverez ici les projets que j'ai réalisé et ceux sur lesquels je travaille. <a href="contact" title="Allez-y cliquez et contactez-moi"><strong>Louez mes services</strong></a> pour vos futurs projets, armé de mes outils de mercenaire je me chargerai de votre mission!
     </section>
     <section id="content">
         <h1 class="bigtitle">Mes projets récents</h1>

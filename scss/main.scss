@@ -367,19 +367,21 @@ footer{
       margin: 0;
     }
   }
- .visit a:visited{
+ .visit  a:visited{
     color: #fff;
   }
-  .visit{
+  .visit a{
+    display: block;
+    width: 7.5em;
     font-size: 0.8em;
     color: #fff;
     padding: 0.3em;
     background-color: #367fa8;
     text-transform: uppercase;
     margin: 0.5em 0;
-    a{
-      display: block;
-      color: #fff;
+    &:hover{
+      color: red;
+      //transition-duration: 2s;
     }
   }
   #me{
@@ -696,7 +698,7 @@ a{
   }
 }
 
-.visit{
+.visit a{
   padding: 0.5em;
   background-color: #367fa8;
   color: #fff;
