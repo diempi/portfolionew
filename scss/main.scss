@@ -115,6 +115,7 @@ img, iframe, video{
     }
     input{
       height: 2em;
+      line-height: 2em;
     }
   }
   #send input{
@@ -367,9 +368,7 @@ footer{
       margin: 0;
     }
   }
- .visit  a:visited{
-    color: #fff;
-  }
+
   .visit a{
     display: block;
     width: 7.5em;
@@ -381,8 +380,10 @@ footer{
     margin: 0.5em 0;
     &:hover{
       color: red;
-      //transition-duration: 2s;
     }
+    &:visited{
+        color: #ddd;
+      }
   }
   #me{
     font-size: 1.3em;
@@ -431,13 +432,7 @@ img, iframe, video{
   height: auto;
 }
 
-a{
-  text-decoration: none;
-  color: #146490;
-  &:visited{
-    color: #367fa8;
-  }
-}
+
 #fullwidth{
   width: 100%;
   margin: 0 0 0 0.5em;
@@ -698,14 +693,7 @@ a{
   }
 }
 
-.visit a{
-  padding: 0.5em;
-  background-color: #367fa8;
-  color: #fff;
-  &:visited{
-    color: #fff;
-  }
-}
+
 
 .title{
   font-size: 1em;
