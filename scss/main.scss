@@ -393,6 +393,21 @@ footer{
   .social-contact{
     display: none;
   }
+  .feedback{
+        height: 2em ;
+  }
+  .success, .error{
+    padding: 0.5em;
+    color: #fff;
+  }
+.success{
+  background-color: green;
+}
+
+.error{
+  background-color: red;
+}
+
 }
 /*
 // 480px

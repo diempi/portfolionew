@@ -8,7 +8,7 @@
                 <h1 class="bigtitle">Louez mes services!</h1>
                 <section id="contactform">
                     <h2>Contactez-moi dès maintenant via le formulaire</h2>
-                    <form action="#" >
+                    <form action="<?php bloginfo('template_url'); ?>/emailsent.php" method="post" id="contactform">
                         <fieldset>
                             <div>
                                 <label for="name">Votre Nom</label>
@@ -33,7 +33,9 @@
                             <div id="send">
                                 <input type="submit" value="Envoyer">
                             </div>
-
+                            <div class="feedback">
+                                
+                            </div>    
                         </fieldset>
                     </form>
                 </section>
