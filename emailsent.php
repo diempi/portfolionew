@@ -16,7 +16,7 @@
 	 	$message = $_POST['message'];		
 	 }	
 
-	 $dest = 'didier@diempi.be';
+	 $dest = 'mail@';
 	 $subject = ' Message venant de '.$name.': '.$email;
 	
 	// Envoi de l'email
